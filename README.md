@@ -10,11 +10,13 @@ version 0.6
 * Example: ./LinEnum.sh -k keyword -r report -e /tmp/ -t 
 
 OPTIONS:
-* -k	Enter keyword
-* -e	Enter export location
-* -t	Include thorough (lengthy) tests
-* -r	Enter report name
-* -h	Displays this help text
+* -k	 输入关键字
+* -e	 输出配置文件位置
+* -t	 彻底测试
+* -r	 输出报告位置
+* -h	 帮助.
+Example: ./LinEnum.sh -r 11.txt -e out 
+将报告输出到 11.txt中，配置文件输出到当前位置的 out文件夹中。
 
 
 Running with no options = limited scans/no output file
